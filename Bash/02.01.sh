@@ -1,8 +1,8 @@
 #!/bin/bash
-+
+
 Name="Brytany"
 
-echo "Hello, $name"
+echo "Hello, $Name"
 
 if [ -f /var/log/syslog ]; then
     echo "syslog found!"
