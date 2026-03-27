@@ -17,7 +17,7 @@ def list_files_with_permissions(path):
 
             except PermissionError:
                 print("Permission denied to access the directory.")
-    list_files_with_permissions("/home/kali")
+list_files_with_permissions("/home/kali")
 
 
 
