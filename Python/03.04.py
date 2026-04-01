@@ -1,14 +1,11 @@
 #Find .txt files
 
 "*.txt "
-from os import mkdir
-from tkinter.filedialog import test
-from turtle import home
-
-from pysftp import cd
+import os
 
 try:
-
-    ls -a/home 
-
+    happylab = os.listdir("/home")
+    print(happylab)
+except Exception as e:
+    print(e)
 
